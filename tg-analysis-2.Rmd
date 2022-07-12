@@ -55,5 +55,8 @@ ttg_df %>%
 ```{r}
 ttg_df %>% 
   t.test(percent~update, data = .)
+
+sd(tg_df$`pre-update`)
+sd(tg_df$`post-update`)
 ```
 
