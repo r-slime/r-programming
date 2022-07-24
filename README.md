@@ -1,6 +1,6 @@
 # r-programming
 <br>
-This is a repository of my work in r. I also will update this README file with links to notebooks and my other work.
+This is a repository of my work in r. I will update this README file with links to external examples of my work.
 <br>
 <br>
 <h2>Data Cleaning Examples</h2> <br>
