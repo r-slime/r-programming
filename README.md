@@ -5,4 +5,4 @@ This is a repository of my work in r. I also will update this README file with l
 <br>
 <h2>Data Cleaning Examples</h2> <br>
 
-[Kaggle Notebook Minecraft Composter](https://www.kaggle.com/code/bradfordjohnson/cactus-vs-sugarcane?scriptVersionId=101591092)
+<a href="https://www.kaggle.com/code/bradfordjohnson/cactus-vs-sugarcane?scriptVersionId=101591092" target="blank">Kaggle Notebook Minecraft Composter</a>
