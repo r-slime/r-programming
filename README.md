@@ -1,6 +1,7 @@
 # r-programming
 <br>
-This is a repository for R files and projects. 
+## This is a repository for R files and projects. 
+<br>
 
 Folder | Description
 ------------- | -------------
