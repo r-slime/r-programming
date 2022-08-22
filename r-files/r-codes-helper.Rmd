@@ -7,19 +7,26 @@ output: html_notebook
 sa<-c(10,11,12,9,9,11)
 sd<-c(9,9,0,8,9,7,9)
 
-sd(sa) #little s or standard deviation sa
+# little s or standard deviation sa
+sd(sa) 
 
-standard_error <- function(x) sd(x) / sqrt(length(x)) #creates the function to get the standard errors mean
+# creates the function to get the standard errors mean
+standard_error <- function(x) sd(x) / sqrt(length(x)) 
 
-standard_error (sa) # gets the standard error sample mean for sa
+# gets the standard error sample mean for sa
+standard_error (sa) 
 
-t.test(sa, conf.level=0.95) # gets the 95% confidence interval for sa
+# gets the 95% confidence interval for sa
+t.test(sa, conf.level=0.95) 
 
-t.test(sa,mu=10) # on one sample t.test for sa, Mu changes 
+# on one sample t.test for sa, Mu changes
+t.test(sa,mu=10)  
 
-mean(sa) # gets the mean of sa
+# gets the mean of sa
+mean(sa) 
 
-t.test(sa,sd)  #two sample t.
+# two sample t.
+t.test(sa,sd)  
 
 ```
 
@@ -27,9 +34,11 @@ t.test(sa,sd)  #two sample t.
 ach<-c(28,27,25,24,24,23,23,23,22,21,19,18,17,15,13)
 aff<-c(12,10,14,18,11,15,16,19,22,20,18,24,25,23,26)
 
-cor(ach,aff)  #computes the correlation coefficient(r)
+# computes the correlation coefficient(r)
+cor(ach,aff)  
 
-regmodel=lm(aff~ach)  #fit a regression model note where “y” goes.
+# fit a regression model note where “y” goes.
+regmodel=lm(aff~ach)  
 
 relation <- lm(aff~ach)
 
@@ -38,7 +47,8 @@ print(relation)
 ```
 
 ```{r}
-chisqprob2<-matrix(c(9,26,31,34),ncol=2,byrow=T) #command chi sq.
+# command chi sq.
+chisqprob2<-matrix(c(9,26,31,34),ncol=2,byrow=T) 
 
 colnames(chisqprob2)<-c("2","5")
 
